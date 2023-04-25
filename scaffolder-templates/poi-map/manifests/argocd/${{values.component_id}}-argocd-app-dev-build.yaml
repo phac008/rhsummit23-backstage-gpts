@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: ${{values.namespace}}-${{values.component_id}}-dev-build
-  namespace: janus-argocd
+  namespace: suxess-it-admin
   finalizers:
     - resources-finalizer.argocd.argoproj.io  
 spec:
