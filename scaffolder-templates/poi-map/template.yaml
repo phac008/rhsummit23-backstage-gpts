@@ -149,7 +149,7 @@ spec:
       input:
         appName: ${{parameters.namespace}}-${{parameters.component_id}}-bootstrap
         argoInstance: main
-        namespace: suxess-id-admin
+        namespace: suxess-it-admin
         repoUrl: https://github.com/${{parameters.githubOrg}}/${{parameters.repoName}}-gitops.git
         path: 'argocd/'
   output:
