@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: ${{values.namespace}}-${{values.component_id}}-repo
-  namespace: janus-argocd
+  namespace: suxess-it-admin
   labels:
     argocd.argoproj.io/secret-type: repository
 stringData:
